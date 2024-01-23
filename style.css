@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  height:100vh;
+  box-sizing: border-box;
+  
+}
+
+img{
+  border-radius: 50%;
+  height: 128px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 128px;
+  
+}
+
+button{
+  background-color: hsl(0, 0%, 20%);
+  
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  width: 100%;
+}
+
+.info{
+    
+    width:300px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius:5px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 12%);
+    align-items: center;
+    padding: 10px;
+}
+
+.profile{
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  
+}
+
+.name {
+  text-decoration: solid;
+  padding:5px;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  color:hsl(0, 0%, 100%);
+}
+
+.place{
+  color:hsl(75, 94%, 57%)
+}
+
+.about{
+  padding:20px;
+  color:hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 11px;
+  text-align: center;
+  color:hsl(0, 0%, 100%);
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  padding: 15px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
