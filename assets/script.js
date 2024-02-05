@@ -1,5 +1,5 @@
 function github() {
-  window.open('https:github.com/araujovitorpaulo', '_blank');
+  window.open('https://github.com/araujovitorpaulo', '_blank');
 }
 
 function mentor() {
