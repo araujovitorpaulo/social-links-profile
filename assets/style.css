@@ -29,21 +29,22 @@ button{
   border-radius: 10px;
   color: white;
   padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
   font-size: 16px;
   margin-top: 7px;
   margin-bottom: 7px;
-  margin-left: 15px;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+  margin-left: 50px;
   cursor: pointer;
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
-  width: 90%;
+  font-weight: 700;
+  width: 300px;
 }
 
 .info{
     
-    width:300px;
+    width:400px;
     margin:auto;
     margin-top: 100px;
     border-radius:10px;
